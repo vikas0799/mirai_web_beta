@@ -1,8 +1,6 @@
 ---
 
-# 📘– Basics of HTML
-
-This lecture introduces the **fundamentals of HTML**:
+# 📘 Basics of HTML
 
 * What HTML is
 * Structure of an HTML document
