@@ -1,18 +1,19 @@
+```
 ---
 
 # 📘 Basics of HTML
 
-* What HTML is
-* Structure of an HTML document
-* Elements & attributes
-* Headings and paragraphs
-* Text formatting tags
+* What HTML is  
+* Structure of an HTML document  
+* Elements & attributes  
+* Headings and paragraphs  
+* Text formatting tags  
 
 ---
 
 ## 🌐 What is HTML?
 
-**HTML (HyperText Markup Language)** is the standard language used to create webpages.
+**HTML (HyperText Markup Language)** is the standard language used to create webpages.  
 It defines the **structure** of a webpage using **elements (tags)**.
 
 ---
@@ -22,6 +23,7 @@ It defines the **structure** of a webpage using **elements (tags)**.
 A webpage is divided into main parts:
 
 ```
+
 HTML Document
 │
 ├── Head Section
@@ -30,27 +32,28 @@ HTML Document
 │   └── Links (CSS, scripts, etc.)
 │
 └── Body Section
-    ├── Headings
-    ├── Paragraphs
-    ├── Images, Links
-    └── Other Content (tables, lists, etc.)
+├── Headings
+├── Paragraphs
+├── Images, Links
+└── Other Content (tables, lists, etc.)
+
 ```
 
 ---
 
 ## 🧩 HTML Elements
 
-* Building blocks of a webpage.
-* Usually consist of an **opening tag**, **content**, and a **closing tag**.
-* Some elements are **self-closing** (e.g., line breaks, horizontal rules).
+* Building blocks of a webpage.  
+* Usually consist of an **opening tag**, **content**, and a **closing tag**.  
+* Some elements are **self-closing** (e.g., line breaks, horizontal rules).  
 
 ---
 
 ## 🔖 HTML Attributes
 
-* Attributes give **extra information** to elements.
-* Written inside the **opening tag**.
-* Examples: image source, alternative text, alignment, width, etc.
+* Attributes give **extra information** to elements.  
+* Written inside the **opening tag**.  
+* Examples: image source, alternative text, alignment, width, etc.  
 
 ---
 
@@ -59,6 +62,7 @@ HTML Document
 HTML provides **six levels of headings**:
 
 ```
+
 Heading Levels
 H1 → Main Title
 H2 → Section Title
@@ -66,20 +70,20 @@ H3 → Subsection
 H4 → Sub-subsection
 H5 → Smaller Heading
 H6 → Smallest Heading
+
 ```
 
-👉 Headings make content **structured and easy to read**.
+👉 Headings make content **structured and easy to read**.  
 
 ---
 
 ## 📑 Paragraphs
 
-* Used for writing **blocks of text**.
-* Paragraphs are separated automatically by space.
-* Extra helpers:
-
-  * **Line break** → moves text to next line.
-  * **Horizontal rule** → creates a divider line.
+* Used for writing **blocks of text**.  
+* Paragraphs are separated automatically by space.  
+* Extra helpers:  
+  * **Line break** → moves text to next line.  
+  * **Horizontal rule** → creates a divider line.  
 
 ---
 
@@ -101,11 +105,12 @@ H6 → Smallest Heading
 
 ## ✅ Summary
 
-* HTML defines the **structure** of webpages.
-* **Elements** = opening tag + content + closing tag.
-* **Attributes** add extra information to elements.
-* **Headings (`h1`–`h6`)** create titles and sections.
-* **Paragraphs** structure text blocks.
-* **Formatting tags** style text (bold, italic, underline, highlight, etc.).
+* HTML defines the **structure** of webpages.  
+* **Elements** = opening tag + content + closing tag.  
+* **Attributes** add extra information to elements.  
+* **Headings (`h1`–`h6`)** create titles and sections.  
+* **Paragraphs** structure text blocks.  
+* **Formatting tags** style text (bold, italic, underline, highlight, etc.).  
 
 ---
+```
