@@ -10,7 +10,7 @@
 * Client-Server Architecture
 * Browser & Rendering Engine
 * Understanding Frontend vs Backend
-
+* Terminal Basics Commands 
 ---
 
 ## 📌 2. HTML (HyperText Markup Language)
