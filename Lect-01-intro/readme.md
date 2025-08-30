@@ -1,4 +1,3 @@
-# 💻 Computer & Networking Basics
 
 ## 🖥️ What is a Computer?
 
@@ -95,7 +94,7 @@ It allows devices worldwide to exchange data, share resources, and access servic
 * 💾 **Services** – Email, Web (WWW), Cloud, Streaming, IoT
 * 🆔 **Identifiers** – Every device has a unique IP address; domain names map to IPs via DNS
 
-📌 **Reference:** [Crash Course on Networking (YouTube)](https://youtu.be/x3c1ih2NJEg)
+📌 **Reference:** [How internet works (YouTube)](https://youtu.be/x3c1ih2NJEg)
 ---
 ![alt text](image-1.png)
 ---
