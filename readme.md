@@ -2,8 +2,6 @@
 ---
 # 🎯 Frontend Development Syllabus(not finalised there may be some changes)
 
-A complete guide to becoming a **Frontend Developer**.
-
 ---
 
 ## 📌 1. Basics of Web Development
@@ -73,6 +71,7 @@ A complete guide to becoming a **Frontend Developer**.
 * Error Handling & Try-Catch
 * Debouncing & Throttling
 * JavaScript Modules (ES Modules & CommonJS)
+* Interview Question Practice
 
 ### 💡 Projects after HTML + CSS + JavaScript
 
