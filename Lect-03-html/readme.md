@@ -59,12 +59,12 @@ HTML provides **six levels of headings**:
 
 ```
 
-H1 → Main Title
-H2 → Section Title
-H3 → Subsection
-H4 → Sub-subsection
-H5 → Smaller Heading
-H6 → Smallest Heading
+*H1 → Main Title
+*H2 → Section Title
+*H3 → Subsection
+*H4 → Sub-subsection
+*H5 → Smaller Heading
+*H6 → Smallest Heading
 
 ```
 
