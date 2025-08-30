@@ -96,7 +96,8 @@ It allows devices worldwide to exchange data, share resources, and access servic
 * 🆔 **Identifiers** – Every device has a unique IP address; domain names map to IPs via DNS
 
 📌 **Reference:** [Crash Course on Networking (YouTube)](https://youtu.be/x3c1ih2NJEg)
-
+---
+![alt text](image-1.png)
 ---
 
 ## 🖥️ Client-Server Architecture
@@ -160,8 +161,15 @@ When you type **[www.google.com](http://www.google.com)** in your browser:
 * 📧 Email – Gmail/Outlook ↔ Mail Server
 
 ---
+![alt text](image-2.png)
+---
+![alt text](image-3.png)
+---
+![alt text](image-4.png)
+---
 
-## 🌐 Web Development Basics
+## 🌐 Web Development Basics (HTML CSS JS)
+![alt text](image-5.png)
 
 ### 🔧 Tools to Install
 
@@ -176,9 +184,3 @@ When you type **[www.google.com](http://www.google.com)** in your browser:
 * **JavaScript (Logic)** – Makes pages interactive
 
 ---
-
-✨ This README gives a **beginner-friendly explanation** of computers, the Internet, client-server architecture, and web development essentials.
-
----
-
-Do you want me to also **add diagrams (ASCII/Markdown flowcharts)** for *Computer Components* and *Client-Server Architecture* to make the README more visual?
