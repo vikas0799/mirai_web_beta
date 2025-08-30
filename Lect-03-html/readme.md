@@ -1,6 +1,6 @@
-```
----
 
+
+```markdown
 # 📘 Basics of HTML
 
 * What HTML is  
@@ -26,16 +26,19 @@ A webpage is divided into main parts:
 
 HTML Document
 │
-├── Head Section
-│   ├── Title (browser tab text)
-│   ├── Metadata (info about page)
-│   └── Links (CSS, scripts, etc.)
-│
-└── Body Section
-├── Headings
-├── Paragraphs
-├── Images, Links
-└── Other Content (tables, lists, etc.)
+├── <html>
+│   ├── <head>
+│   │    ├── <title> (Browser tab title)
+│   │    ├── <meta> (Metadata info)
+│   │    └── <link> (CSS, external files)
+│   │
+│   └── <body>
+│        ├── Headings
+│        ├── Paragraphs
+│        ├── Images
+│        ├── Links
+│        ├── Lists
+│        └── Other Content
 
 ```
 
@@ -63,7 +66,6 @@ HTML provides **six levels of headings**:
 
 ```
 
-Heading Levels
 H1 → Main Title
 H2 → Section Title
 H3 → Subsection
@@ -82,8 +84,8 @@ H6 → Smallest Heading
 * Used for writing **blocks of text**.  
 * Paragraphs are separated automatically by space.  
 * Extra helpers:  
-  * **Line break** → moves text to next line.  
-  * **Horizontal rule** → creates a divider line.  
+  * **Line break (`<br>`)** → moves text to next line.  
+  * **Horizontal rule (`<hr>`)** → creates a divider line.  
 
 ---
 
