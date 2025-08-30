@@ -17,30 +17,23 @@
 It defines the **structure** of a webpage using **elements (tags)**.
 
 ---
-
-## 📄 Structure of an HTML Document
-
-A webpage is divided into main parts:
-
-```
-
+<pre>
 HTML Document
-│
-├── <html>
-│   ├── <head>
-│   │    ├── <title> (Browser tab title)
-│   │    ├── <meta> (Metadata info)
-│   │    └── <link> (CSS, external files)
-│   │
-│   └── <body>
-│        ├── Headings
-│        ├── Paragraphs
-│        ├── Images
-│        ├── Links
-│        ├── Lists
-│        └── Other Content
-
-```
+|
++-- &lt;html&gt;
+|   +-- &lt;head&gt;
+|   |   +-- &lt;title&gt;  (Browser tab title)
+|   |   +-- &lt;meta&gt;   (Metadata info)
+|   |   \-- &lt;link&gt;   (CSS, external files)
+|   |
+|   \-- &lt;body&gt;
+|       +-- Headings
+|       +-- Paragraphs
+|       +-- Images
+|       +-- Links
+|       +-- Lists
+|       \-- Other Content
+</pre>
 
 ---
 
