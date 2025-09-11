@@ -1,0 +1,49 @@
+/* h1{
+    color: red;
+    background-color: antiquewhite;
+}
+p{
+    color: green;
+}
+
+.coding_club{
+    color: blue;
+}
+
+#head1{
+    color: rgb(232, 221, 6);
+} */
+
+
+
+/* h1{
+    color: red;
+}
+p{
+    color: red;
+} */
+
+/* h1, p,.list{
+    color: red;
+} */
+
+/* body{
+    background-color: antiquewhite;
+} */
+
+/* body, p, h1, ul, li{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+h1{
+    color: blue;
+}
+*{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
