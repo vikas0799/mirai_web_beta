@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        main{
+            background-color: aquamarine;
+            height: 100px;
+            width: 100vw;
+            display: flex;  
+            /* main axis h vo horizonatl ho gai h , aap change bhi kar sakte ho */
+            /* flex-direction: column-reverse; */
+            justify-content:space-between;
+            align-items: center;
+            
+        }
+        p{
+            margin: 30px;
+        }
+        img{
+            height: 100px;
+            
+        }
+        #nav{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <img src="netflix.png" alt="">
+        </section>
+        <section id="nav">
+            <p>Home</p>
+        <p>Services</p>
+        <p>About Us</p>
+        <p>Contact Us</p>
+        </section>
+    </main>
+</body>
+</html>
