@@ -1,0 +1,16 @@
+*{
+    /* border: 3px solid black; */
+}
+
+main{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around;
+    background-color: aqua;
+    height: 400px;
+    align-items: end; */
+    height: 800px;
+    justify-content: center;
+}
