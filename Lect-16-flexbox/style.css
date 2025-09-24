@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:___; /* students fill */
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content:__; /* students fill */
+  align-items:__;     /* students fill */
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  flex: 1; /* so it takes available space */
+}
+
+.sidebar {
+  width: 200px;
+  background: #f4f4f4;
+}
+
+
+/* child property */
+.content {
+  /* display: flex; */
+
+  flex:__; /* students fill */
+  background: #ddd;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content:__; /* students fill */
+  align-items:__;     /* students fill */
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}

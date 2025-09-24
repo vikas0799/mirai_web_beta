@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-color: aqua;
+    height: 300px;
+    padding: 25px;
+    /* overflow: scroll; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+div{
+    background-color: brown;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+}
+
+.box1:hover{
+background-color: green;
+border-radius: 10%;
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    background-color: aqua;
+    height: 30px;
+    position: sticky;
+    top: 25px;
+}
