@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: blueviolet;
+            width: 100vw;
+            height: 150px;
+            justify-content: start;
+        }
+        div{
+            background-color: blue;
+            /* height: 60px; */
+            /* width: 100px; */
+            margin-right: 20px;
+            font-size: 60px;
+        }
+        #box4{
+            /* height: 100vh; */
+            /* flex-grow: 4; */
+            /* flex-shrink: 4; */
+            /* flex-basis: 400px; */
+            /* flex:2 2 300px; */
+            align-self:end ;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+
+
+    <main class="flex-container">
+  <div>vikas</div>
+  <div>rohit</div>
+  <div>gaurav</div>
+  <div id="box4">aditya</div>
+    </main>
+
+
+     <!-- <main class="flex-container">
+  <div style="order: 3">vikas</div>
+  <div style="order: 2">rohit</div>
+  <div style="order: 4">gaurav</div>
+  <div style="order: 1" id="box4">aditya</div>
+    </main> -->
+
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self -->
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/align-self -->
+
+    <!-- https://www.w3schools.com/css/css3_flexbox_items.asp -->
+</body>
+</html>
