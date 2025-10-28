@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            margin: 20px;
+            /* animation property */
+            animation-name: myanimation;
+            animation-duration: 3s;
+            animation-iteration-count: 4;
+            animation-delay: 2s;
+            animation-timing-function: ease;
+            animation-fill-mode: forwards;
+            
+        }
+
+        div:hover{
+            animation-play-state: paused;
+        }
+
+
+        button{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            margin: 20px;
+            /* animation property */
+            animation-name: myanimation;
+            animation-duration: 3s;
+            animation-iteration-count: 4;
+            /* animation-delay: 2s; */
+            /* animation-timing-function: ease; */
+            /* animation-fill-mode: forwards; */
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+             animation: negi 1s infinite ;
+             color: whitesmoke;
+             font-size: xx-large;
+            }
+
+        @keyframes myanimation{
+            0%{
+                 height: 300px;
+                 background-color: green;
+            }
+            50%{
+                border-radius:50% ;
+            }
+            100%{
+                width: 300px;
+
+            }
+        }
+
+
+        @keyframes negi{
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(90deg);
+                border-radius: 50%;
+
+            }
+            100%{
+                transform: rotate(180deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div>
+        
+    </div> -->
+
+    <button>
+        click em
+    </button>
+    
+</body>
+</html>
