@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width: 200vw;
+            background-color: aqua;
+            display: flex;
+            height: 200px;
+            color: white;
+            font-size: 30px;
+            animation: scroll 3s linear infinite alternate;
+        }
+
+        .group{
+            background-color: blue;
+            margin: 10px;
+            flex: 1;
+            display: flex;
+        }
+        div{
+            background-color: brown;
+            flex: 1;
+            margin: 10px;
+        }
+
+         @keyframes scroll {
+            0%{
+                transform: translateX(0%);
+            }
+            100%{
+                transform: translateX(-50%);
+                
+            }
+        }
+    </style>
+</head>
+<body>
+        <main>
+            <section class="group">
+                 <div>box1</div>
+                <div>box2</div>
+                <div>box3</div>
+                <div>box4</div>
+                <div>box5</div>
+
+            </section>
+            <section class="group">
+                
+ <div>box1</div>
+                <div>box2</div>
+                <div>box3</div>
+                <div>box4</div>
+                <div>box5</div>
+            </section>
+        </main>
+
+
+</body>
+</html>
