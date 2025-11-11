@@ -15,3 +15,10 @@ else{
     console.log("Not prime");
     
 }
+
+
+
+
+let n=123;
+n=parseInt(n/10);
+console.log(n);
