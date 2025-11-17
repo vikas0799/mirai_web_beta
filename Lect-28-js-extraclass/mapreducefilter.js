@@ -1,13 +1,13 @@
 // let arr=[1,12,5,8,9];
 
-//     let ans=arr.filter((Element,index,arr)=>{
-//         if(Element%2==0){
-//             return true;
-//         }
-//         else{
-//             return false;
-//         }
-//     })
+    let ans=arr.filter((Element,index,arr)=>{
+        if(Element%2==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    })
 
 //     console.log(ans);
     
@@ -37,6 +37,6 @@ let ans=arr.reduce((acc,Element,index,arr)=>{
         acc=Element;
     return acc;
     
-},arr[0]);
+},0);
 
 console.log(ans);

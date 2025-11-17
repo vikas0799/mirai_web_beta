@@ -1,4 +1,4 @@
-// let arr=[23,45,3,2,1,"patel",true];
+let arr=[23,45,3,2,1,"patel",true];
 
 // for(let a of arr){
 //     console.log(a);
@@ -11,13 +11,13 @@
 // }
 
 
-// arr.forEach((aarav,index,arr)=>{
-//     // console.log(index,arr,aarav);
-//     console.log(index,aarav*2);
+arr.forEach((aarav,index,arr)=>{
+    // console.log(index,arr,aarav);
+    console.log(index,aarav*2);
     
 
     
-// });
+});
 
 
 // (element)=>{
