@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this keywords</h1>
+    
+
+    <script>
+     let pallavi={
+        name:"pallavi bhandari",
+        age:20,
+        dist:"pithauragarh",
+        state:"uk",
+      
+        //anonums fn-> current object,    arrow fn->window object
+        display: function(){
+            // console.log("hello");
+            console.log(this);
+            // console.log(this.name);
+            
+            
+        }
+     }
+
+    // //  console.log(pallavi);
+    // //  console.log(pallavi.display);
+     pallavi.display();
+
+    //  console.log(window);
+    // console.log(this);
+    
+     
+
+    </script>
+</body>
+</html>

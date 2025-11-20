@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>0</h1>
+
+    <button>increase me</button>
+
+
+    <script>
+      let btn=  document.querySelector("button");
+      let head=  document.querySelector("h1");
+      let aura=0;
+      btn.addEventListener("click",(event)=>{
+            aura++;
+            head.innerHTML=aura;
+      })
+    </script>
+</body>
+</html>
